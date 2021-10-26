@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>Exercice HTML et CSS</title>
+    <meta
+      description="Cette page a été créé pour permettre aux débutants de s'exercer à manipuler HTML et CSS"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -455,6 +458,73 @@
             async
             src="https://cpwebassets.codepen.io/assets/embed/ei.js"
           ></script>
+        </div>
+      </div>
+      <!-- Pour aller plus loin -->
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <p>
+            <a
+              class="btn btn-secondary col-12 m-auto"
+              data-bs-toggle="collapse"
+              href="#plusLoin"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Pour aller plus loin
+            </a>
+          </p>
+        </div>
+        <div class="col-4"></div>
+      </div>
+      <div class="collapse" id="plusLoin">
+        <p>
+          Pour aller plus loin, je vous conseille fortement d'avoir finit les
+          exercices
+        </p>
+        <p>
+          <a
+            class="btn btn-danger col-12 m-auto"
+            data-bs-toggle="collapse"
+            href="#continuer"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Continuer ?
+          </a>
+        </p>
+        <div class="collapse" id="continuer">
+          <p>
+            Je vous connais les cocinou, avez-cous vraiment finit les exercice ?
+          </p>
+          <p>
+            <a
+              class="btn btn-success col-12 m-auto"
+              data-bs-toggle="collapse"
+              href="#suite"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Continuer ?
+            </a>
+          </p>
+          <div class="collapse" id="suite">
+            <p>
+              Pour la suite, on analyser cette page dans car elle a une
+              particularité, elle n'a pas vraiment de style.
+            </p>
+            <p>Le suite des consignes est dans le README.md</p>
+            <a
+              href="https://github.com/GuillaumePons63/exercice-Web63"
+              class="btn btn-warning"
+            >
+              Aller sur gitHub</a
+            >
+          </div>
         </div>
       </div>
     </main>
